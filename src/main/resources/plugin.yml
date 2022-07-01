@@ -1,0 +1,10 @@
+name: AUTOTAB
+version: '${project.version}'
+main: me.kelopy.autotab.AUTOTAB
+authors: [ Kelopy ]
+commands:
+  murder:
+    description: murder someone lmao
+    usage: /<command> [player]
+    permission: autotab.murder
+    permission-message: "§cYou don't have permission to execute this command."
